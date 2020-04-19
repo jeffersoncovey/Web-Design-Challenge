@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <title>Bootstrap Components</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="Resources/bootstrap.css">
-    <link rel="stylesheet" href="Resources/style.css">
+    <link rel="stylesheet" href="../Resources/bootstrap.css">
+    <link rel="stylesheet" href="../Resources/style.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -22,14 +22,14 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="Assets/temp.html">Max Temperature</a>
-              <a class="dropdown-item" href="Assets/humidity.html">Humidity</a>
-              <a class="dropdown-item" href="Assets/cloudiness.html">Cloudiness</a>
-              <a class="dropdown-item" href="Assets/wind.html">Wind Speed</a>
+              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind.html">Wind Speed</a>
             </div>
           </li>
             <li class="nav-item">
-                <a class="nav-link" href="Assets/comparison.html">Comparison</a>
+                <a class="nav-link" href="comparison.html">Comparison</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Data</a>
@@ -39,34 +39,26 @@
     </nav>
     <div class="container"> 
       <div class="row">
-        <div class="col-lg-7 col-md-12">
+        <div class="col-lg-12 col-md-12">
           <div class="box">
-            <h3>Summary: Latitude vs. X</h3>
+            <h3>Comparison: Latitude vs X</h3>
             <hr>
-            <img src="Visualizations/lat_vs_temp.png" class="vizualization rounded float-left" alt = "Max Temperature">
-            <p>The purpose of this project was to create a Python script to visualize the weather of over 500 random cities across the world and compare their data based on their distance from the equater.</p>
-            <p>After creating the dataset, we used Matplotlib to plot various aspects of the weather while comparing it to its latitude. The plots created outline temperature, cloudiness, wind speed, and humidity. The dataset used in this analysis can also be found on this site as well as any trends or correlations we discovered.</p>
-          </div>
-        </div>
-        <div class="col-lg-5 col-md-12">
-          <div class="box">
-            <h3>Visualizations</h3>
-            <hr>
+            <p>Click any plot to get an in-depth analysis</p>
               <div class="row">
                 <div class="column">
                   <a href="Assets/temp.html">
-                    <img class="panel" src="Visualizations/lat_vs_temp.png" class="vizualization rounded float-left" alt = "Max Temperature">
+                    <img class="panel" src="../Visualizations/lat_vs_temp.png" class="vizualization rounded float-left" alt = "Max Temperature">
                   </a>
                   <a href="Assets/cloudiness.html">
-                    <img class="panel" src="Visualizations/lat_vs_cloudiness.png" class="vizualization rounded float-left" alt = "Cloudiness">
+                    <img class="panel" src="../Visualizations/lat_vs_cloudiness.png" class="vizualization rounded float-left" alt = "Cloudiness">
                   </a>
               </div>
               <div class="column">
                 <a href="Assets/humidity.html">
-                    <img class="panel" src="Visualizations/lat_vs_humidity.png" class="vizualization rounded float-left" alt = "Humidity">
+                    <img class="panel" src="../Visualizations/lat_vs_humidity.png" class="vizualization rounded float-left" alt = "Humidity">
                 </a>
                 <a href="Assets/wind.html">
-                    <img class="panel" src="Visualizations/lat_vs_wind.png" class="vizualization rounded float-left" alt = "Wind Speed">
+                    <img class="panel" src="../Visualizations/lat_vs_wind.png" class="vizualization rounded float-left" alt = "Wind Speed">
                 </a>
               </div>
             </div>
